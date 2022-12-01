@@ -13,6 +13,7 @@ from PIL import Image
 from os import listdir
 from os.path import splitext
 
+
 def jpg_to_png(folder_path):
 	for img in listdir(folder_path):
 		file, filetype = splitext(img)
